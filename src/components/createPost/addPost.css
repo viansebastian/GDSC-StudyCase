@@ -1,0 +1,43 @@
+.create-post-box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    float: right;
+  }
+
+.create-post-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.create-post-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-post-box label {
+    text-align: left; 
+    margin-bottom: 5px; 
+}
+
+.create-post-box input,
+.create-post-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.create-post-box button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; 
+}

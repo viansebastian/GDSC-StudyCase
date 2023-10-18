@@ -1,0 +1,33 @@
+.mini-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .button-delete {
+    background-color: red;
+  }
+
+  .button-update {
+    background-color: teal;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  

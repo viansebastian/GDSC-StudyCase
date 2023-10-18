@@ -1,0 +1,58 @@
+.blog-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .blog-item {
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .blog-box {
+    flex: 1;
+  }
+  
+  .blog-title {
+    margin-bottom: 5px;
+    padding: 0;
+  }
+  
+  .blog-description {
+    margin: 0;
+    padding: 0;
+    color: black; 
+  }
+  
+  .user-ref {
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+  
+  
+  .blog-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-button, .delete-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .edit-button {
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+    cursor: pointer;
+  }
+  
