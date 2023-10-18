@@ -1,3 +1,5 @@
+Do not forget to npm init where is needed. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
