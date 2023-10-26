@@ -24,7 +24,6 @@ export const getAllBlogs = async (req, res, next) => {
                 // Fetch User ID from Reference
                 const userId = userRef._path.segments[userRef._path.segments.length - 1];
                 
-               
                 // Format response
                 const blog = new Blog(
                     doc.id, 
